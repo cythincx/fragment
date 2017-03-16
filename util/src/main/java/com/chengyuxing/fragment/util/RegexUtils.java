@@ -11,6 +11,8 @@ import java.util.regex.Pattern;
  * Desc:
  */
 public class RegexUtils {
+
+    //private static final String NUM = "-?[0-9]+.?[0-9]+";
     /**
      * 判断字符串是否由 汉字,英文大小写,数字,括号(全角和半角),下划线组成
      * @param str
@@ -40,14 +42,7 @@ public class RegexUtils {
      */
     public static boolean checkString(String str, Pattern pattern){
         Matcher m = pattern.matcher(str);
-        if(!m.find()){
-            return false;
-        }else{
-            if(m.group(0).length() != str.length()){
-                return false;
-            }
-        }
-        return true;
+        return m.matches();
     }
 
     /**
@@ -77,4 +72,8 @@ public class RegexUtils {
         String regex = "^[1-9]\\d*$";
         return Pattern.matches(regex, integer);
     }
+
+//    public static boolean isNumeric(String str){
+//        return checkString(str, NUM);
+//    }
 }
