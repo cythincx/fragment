@@ -29,7 +29,7 @@ public class SchulteTableController {
     @ResponseBody
     @RequestMapping(value = "/random", method = RequestMethod.GET)
     public String random(){
-        int[] ints = iSchulteTableService.random25Ints();
+        int[] ints = iSchulteTableService.randomInts();
         StringBuilder sb = new StringBuilder();
         for(int i = 0 ; i < ints.length; i++){
             sb.append(ints[i]).append(" ");

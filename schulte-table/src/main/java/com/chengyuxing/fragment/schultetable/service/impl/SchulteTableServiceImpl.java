@@ -16,14 +16,17 @@ import java.util.List;
  */
 @Service
 public class SchulteTableServiceImpl implements ISchulteTableService {
-    public int[] random25Ints() {
+
+    private static final int NUM = 10000;
+
+    public int[] randomInts() {
         List<Integer> list = new ArrayList<Integer>();
-        for (int i = 1; i <= 25; ++i) {
+        for (int i = 1; i <= NUM; ++i) {
             list.add(i);
         }
         Collections.shuffle(list);
-        int[] result = new int[25];
-        for (int i = 0; i < 25; i++) {
+        int[] result = new int[NUM];
+        for (int i = 0; i < NUM; i++) {
             result[i] = list.get(i);
         }
         return result;

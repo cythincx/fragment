@@ -8,5 +8,5 @@ package com.chengyuxing.fragment.schultetable.service;
  * Desc:
  */
 public interface ISchulteTableService {
-    int[] random25Ints();
+    int[] randomInts();
 }
