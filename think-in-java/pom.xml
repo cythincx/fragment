@@ -9,20 +9,14 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>util</artifactId>
-    <packaging>jar</packaging>
-    <name>fragment-util</name>
-    <version>0.0.2-SNAPSHOT</version>
-
+    <artifactId>think-in-java</artifactId>
 
     <dependencies>
         <dependency>
-            <groupId>org.apache.httpcomponents</groupId>
-            <artifactId>httpclient</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.google.guava</groupId>
-            <artifactId>guava</artifactId>
+            <groupId>com.chengyuxing</groupId>
+            <artifactId>util</artifactId>
         </dependency>
     </dependencies>
+
+
 </project>

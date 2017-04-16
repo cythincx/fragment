@@ -12,6 +12,8 @@
         <module>spring-in-action</module>
         <module>util</module>
         <module>schulte-table</module>
+        <module>think-in-java</module>
+        <module>algorithm</module>
     </modules>
 
     <properties>
@@ -60,6 +62,13 @@
 
     <dependencyManagement>
         <dependencies>
+            <!--内部版本控制-->
+            <dependency>
+                <groupId>com.chengyuxing</groupId>
+                <artifactId>util</artifactId>
+                <version>0.0.2-SNAPSHOT</version>
+            </dependency>
+
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-core</artifactId>
@@ -91,11 +100,7 @@
                 <version>3.8.1</version>
                 <scope>test</scope>
             </dependency>
-            <dependency>
-                <groupId>com.chengyuxing</groupId>
-                <artifactId>util</artifactId>
-                <version>0.0.2-SNAPSHOT</version>
-            </dependency>
+
             <!-- jetty -->
             <!--<dependency>-->
                 <!--<groupId>org.eclipse.jetty</groupId>-->

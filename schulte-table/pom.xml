@@ -10,7 +10,14 @@
     <packaging>war</packaging>
     <name>schulte-table Maven Webapp</name>
     <url>http://maven.apache.org</url>
+
     <dependencies>
+
+        <dependency>
+            <groupId>com.chengyuxing</groupId>
+            <artifactId>util</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -41,13 +48,13 @@
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-maven-plugin</artifactId>
                 <!--<configuration>-->
-                    <!--<httpConnector>-->
-                        <!--<port>8888</port>-->
-                        <!--<idleTimeout>3000</idleTimeout>-->
-                    <!--</httpConnector>-->
-                    <!--<webApp>-->
-                        <!--<contextPath>/</contextPath>-->
-                    <!--</webApp>-->
+                <!--<httpConnector>-->
+                <!--<port>8888</port>-->
+                <!--<idleTimeout>3000</idleTimeout>-->
+                <!--</httpConnector>-->
+                <!--<webApp>-->
+                <!--<contextPath>/</contextPath>-->
+                <!--</webApp>-->
                 <!--</configuration>-->
             </plugin>
         </plugins>
