@@ -1,5 +1,6 @@
 package com.chengyuxing.fragment.tij.collection;
 
+import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
 import java.util.concurrent.ExecutorService;
@@ -46,5 +47,7 @@ public class Statistics implements Runnable {
         exec.shutdown();
 
     }
+
+
 }
 
