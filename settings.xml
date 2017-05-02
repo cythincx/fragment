@@ -5,27 +5,27 @@
         <server>
             <id>meituan-nexus-releases</id>
             <username>deployment</username>
-            <password>deployment123</password>
+            <password>xxx</password>
         </server>
         <server>
             <id>meituan-nexus-snapshots</id>
             <username>deployment</username>
-            <password>deployment123</password>
+            <password>xxx</password>
         </server>
         <server>
             <id>dianping.repo</id>
             <username>fw-deploy</username>
-            <password>AP2mqXWpzb4vjz51n6PMRPHByMc</password>
+            <password>xxx</password>
         </server>
         <server>
             <id>dianping.repo.snapshots</id>
             <username>fw-deploy</username>
-            <password>AP2mqXWpzb4vjz51n6PMRPHByMc</password>
+            <password>xxx</password>
         </server>
         <server>
             <id>dianping-releases</id>
             <username>search</username>
-            <password>AP6YVUgLAdeH7jieVzmx6zjTiM9</password>
+            <password>xxx</password>
         </server>
     </servers>
 
