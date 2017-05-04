@@ -12,10 +12,11 @@
     <url>http://maven.apache.org</url>
 
     <dependencies>
-
         <dependency>
             <groupId>com.chengyuxing</groupId>
             <artifactId>util</artifactId>
+            <version>0.0.3-SNAPSHOT</version>
+            <type>jar</type>
         </dependency>
 
         <dependency>
@@ -47,6 +48,7 @@
             <plugin>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-maven-plugin</artifactId>
+                <version>9.4.3.v20170317</version>
                 <!--<configuration>-->
                 <!--<httpConnector>-->
                 <!--<port>8888</port>-->

@@ -63,11 +63,6 @@
     <dependencyManagement>
         <dependencies>
             <!--内部版本控制-->
-            <dependency>
-                <groupId>com.chengyuxing</groupId>
-                <artifactId>util</artifactId>
-                <version>0.0.2-SNAPSHOT</version>
-            </dependency>
 
             <dependency>
                 <groupId>org.springframework</groupId>
@@ -103,9 +98,9 @@
 
             <!-- jetty -->
             <!--<dependency>-->
-                <!--<groupId>org.eclipse.jetty</groupId>-->
-                <!--<artifactId>jetty-project</artifactId>-->
-                <!--<version>9.4.2.v20170220</version>-->
+            <!--<groupId>org.eclipse.jetty</groupId>-->
+            <!--<artifactId>jetty-project</artifactId>-->
+            <!--<version>9.4.2.v20170220</version>-->
             <!--</dependency>-->
 
             <!-- jetty plugin-->
@@ -168,30 +163,6 @@
                 <version>4.5</version>
             </dependency>
         </dependencies>
-
-
     </dependencyManagement>
-
-    <profiles>
-        <profile>
-            <id>meituan</id>
-            <activation>
-                <activeByDefault>false</activeByDefault>
-            </activation>
-        </profile>
-        <profile>
-            <id>dianping</id>
-            <activation>
-                <activeByDefault>false</activeByDefault>
-            </activation>
-        </profile>
-        <profile>
-            <id>cythincx1</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-        </profile>
-    </profiles>
-
 
 </project>
