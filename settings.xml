@@ -5,12 +5,12 @@
         <server>
             <id>meituan-nexus-releases</id>
             <username>deployment</username>
-            <password>xxx</password>
+            <password>deployment123</password>
         </server>
         <server>
             <id>meituan-nexus-snapshots</id>
             <username>deployment</username>
-            <password>xxx</password>
+            <password>deployment123</password>
         </server>
         <server>
             <id>dianping.repo</id>
@@ -197,7 +197,23 @@
         </profile>
 
         <profile>
+            <id>cythincx-local</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <repositories>
+                <repository>
+                    <id>local-repo</id>
+                    <url>file:///Users/chengyuxing/.m2/repository/lib/</url>
+                </repository>
+            </repositories>
+        </profile>
+
+        <profile>
             <id>net-cn</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
             <repositories>
                 <repository>
                     <id>net-cn</id>
