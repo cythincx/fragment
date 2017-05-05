@@ -15,7 +15,7 @@
         <dependency>
             <groupId>com.chengyuxing</groupId>
             <artifactId>util</artifactId>
-            <version>0.0.2-SNAPSHOT</version>
+            <version>0.0.3-SNAPSHOT</version>
             <type>jar</type>
         </dependency>
     </dependencies>
