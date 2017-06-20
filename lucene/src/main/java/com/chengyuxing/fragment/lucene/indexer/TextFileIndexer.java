@@ -1,5 +1,8 @@
 package com.chengyuxing.fragment.lucene.indexer;
 
+import org.apache.lucene.analysis.standard.StandardAnalyzer;
+import org.apache.lucene.util.Version;
+
 /**
  * Created with IntelliJ IDEA.
  * Author: chengyuxing
@@ -8,4 +11,5 @@ package com.chengyuxing.fragment.lucene.indexer;
  * Description:
  */
 public class TextFileIndexer {
+    private static StandardAnalyzer analyzer = new StandardAnalyzer(Version.LUCENE_5_5_0);
 }
