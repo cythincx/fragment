@@ -15,17 +15,17 @@
         <server>
             <id>dianping.repo</id>
             <username>fw-deploy</username>
-            <password>AP2mqXWpzb4vjz51n6PMRPHByMc</password>
+            <password>xxx</password>
         </server>
         <server>
             <id>dianping.repo.snapshots</id>
             <username>fw-deploy</username>
-            <password>AP2mqXWpzb4vjz51n6PMRPHByMc</password>
+            <password>xxx</password>
         </server>
         <server>
             <id>dianping-releases</id>
             <username>search</username>
-            <password>AP6YVUgLAdeH7jieVzmx6zjTiM9</password>
+            <password>xxx</password>
         </server>
     </servers>
 
@@ -197,7 +197,23 @@
         </profile>
 
         <profile>
+            <id>cythincx-local</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <repositories>
+                <repository>
+                    <id>local-repo</id>
+                    <url>file:///Users/chengyuxing/.m2/repository/lib/</url>
+                </repository>
+            </repositories>
+        </profile>
+
+        <profile>
             <id>net-cn</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
             <repositories>
                 <repository>
                     <id>net-cn</id>

@@ -11,8 +11,8 @@
 
     <artifactId>util</artifactId>
     <packaging>jar</packaging>
-    <name>fragment-util</name>
-    <version>0.0.2-SNAPSHOT</version>
+    <name>util</name>
+    <version>0.0.3-SNAPSHOT</version>
 
 
     <dependencies>
