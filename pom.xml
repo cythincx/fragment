@@ -14,6 +14,7 @@
         <module>schulte-table</module>
         <module>think-in-java</module>
         <module>algorithm</module>
+        <module>view</module>
     </modules>
 
     <properties>
