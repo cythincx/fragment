@@ -15,6 +15,7 @@
         <module>think-in-java</module>
         <module>algorithm</module>
         <module>view</module>
+        <module>lucene</module>
     </modules>
 
     <properties>
