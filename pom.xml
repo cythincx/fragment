@@ -16,6 +16,7 @@
         <module>algorithm</module>
         <module>view</module>
         <module>lucene</module>
+        <module>effective-java</module>
     </modules>
 
     <properties>
