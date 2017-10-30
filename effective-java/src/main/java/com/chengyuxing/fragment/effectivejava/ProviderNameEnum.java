@@ -10,11 +10,14 @@ package com.chengyuxing.fragment.effectivejava;
 public enum ProviderNameEnum {
 
     //构造器模式
-    BUILDER_PATTERN("Builder_Pattern(In item 2)");
+    BUILDER_PATTERN("Builder_Pattern(In item 2)"),
+
+    //用私有构造器或者枚举类型强化Singleton属性
+    ENUM_SINGLETON("In item 3");
 
     private String providerName;
 
-    private ProviderNameEnum(String providerName) {
+    ProviderNameEnum(String providerName) {
         this.providerName = providerName;
     }
 

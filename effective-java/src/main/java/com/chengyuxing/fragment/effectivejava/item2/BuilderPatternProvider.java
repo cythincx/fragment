@@ -20,10 +20,6 @@ public class BuilderPatternProvider implements IEffectiveJavaProvider {
         return name;
     }
 
-    public void setName(ProviderNameEnum name) {
-        this.name = name;
-    }
-
     private static IEffectiveJavaProvider provider;
 
     private BuilderPatternProvider(){}
